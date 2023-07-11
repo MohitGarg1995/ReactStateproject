@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Inputbox from "./Components/Inputbox/Inputbox";
+import UseReducre from "./Components/useReducer/UseReducre";
+import UseMemo from "./Components/UseMemo";
 
 function Counter() {
   const [count, setCount] = useState(5);
@@ -24,6 +26,8 @@ function App() {
       <Counter />
       <Counter />
       <Inputbox />
+      <UseReducre />
+      <UseMemo />
     </>
   );
 }
